@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100&family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100&family=Open+Sans:wght@300;400&display=swap');
 
 
 /* ------------------------Colors------------------------ */
@@ -13,22 +13,26 @@
 }
 
 .bg-color-personal-info {
-    background-color: #f4f4f4;
+    background-color: #d8d8d8;
 }
 
-.ui-menu-color-home {
+.ui-menu-color-home,
+.bg-html-progress-bar {
     background-color: #C25E8D;
 }
 
-.ui-menu-color-resume {
+.ui-menu-color-resume,
+.bg-css-progress-bar {
     background-color: #E86F82;
 }
 
-.ui-menu-color-contact {
+.ui-menu-color-contact,
+.bg-javascript-progress-bar {
     background-color: #FF8A74;
 }
 
-.ui-menu-color-download {
+.ui-menu-color-download,
+.bg-sql-progress-bar {
     background-color: #FFAB66;
 }
 
@@ -269,4 +273,28 @@ footer {
 .personal-info-item .value {
     position: relative;
     width: 60%;
+}
+
+
+/* ------------------------Skills------------------------ */
+
+
+.progress   {
+    position: relative;
+    line-height: normal;
+    height: 25px;
+    margin-bottom: 4px;
+}
+
+.progress-type  {
+    position: absolute;
+    left: 0px;
+    font-weight: 400;
+    padding: 5px 30px 5px 10px;
+    color: #fafafa;
+    background-color: rgba(25, 25, 25, 0.2);
+}
+
+.progress-section   {
+    margin: 30px 25px;
 }
