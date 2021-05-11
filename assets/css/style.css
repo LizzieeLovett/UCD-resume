@@ -21,11 +21,13 @@
 }
 
 .ui-menu-color-home,
+.ui-menu-color-interests,
 .bg-html-progress-bar {
     background-color: #C25E8D;
 }
 
 .ui-menu-color-resume,
+.ui-menu-color-github,
 .bg-css-progress-bar,
 .bg-color-work-history {
     background-color: #E86F82;
